@@ -194,7 +194,7 @@ Curated resources, research, and tools for securing AI systems. Managed by [AISe
 ### Jailbreak & Policy Enforcement (Guardrails)
 *Enforce safety policies and block jailbreaks at runtime via rules/validators/DSLs, with optional human-in-the-loop for sensitive actions.*
 
-- **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** [![GitHub Repo stars](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails?logo=github&label=&style=social)](https://github.com/NVIDIA/NeMo-Guardrails)
+- **[NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails)** [![GitHub Repo stars](https://img.shields.io/github/stars/NVIDIA-NeMo/Guardrails?logo=github&label=&style=social)](https://github.com/NVIDIA-NeMo/Guardrails)
 - **[LLM Guard](https://github.com/protectai/llm-guard)** [![GitHub Repo stars](https://img.shields.io/github/stars/protectai/llm-guard?logo=github&label=&style=social)](https://github.com/protectai/llm-guard)
 - **[Llama Guard](https://github.com/meta-llama/PurpleLlama/tree/main/Llama-Guard4)** [![GitHub Repo stars](https://img.shields.io/github/stars/meta-llama/PurpleLlama?logo=github&label=&style=social)](https://github.com/meta-llama/PurpleLlama)
 - **[LlamaFirewall](https://github.com/meta-llama/PurpleLlama/tree/main/LlamaFirewall)** [![GitHub Repo stars](https://img.shields.io/github/stars/meta-llama/PurpleLlama?logo=github&label=&style=social)](https://github.com/meta-llama/PurpleLlama)
@@ -229,7 +229,7 @@ Curated resources, research, and tools for securing AI systems. Managed by [AISe
 
 #### Tool manifest/metadata validators
 
-- **[mcp-scan](https://github.com/invariantlabs-ai/mcp-scan)** [![GitHub Repo stars](https://img.shields.io/github/stars/invariantlabs-ai/mcp-scan?logo=github&label=&style=social)](https://github.com/invariantlabs-ai/mcp-scan)
+- **[agent-scan](https://github.com/snyk/agent-scan)** [![GitHub Repo stars](https://img.shields.io/github/stars/snyk/agent-scan?logo=github&label=&style=social)](https://github.com/snyk/agent-scan)
 
 #### Agent Identity & Trust
 
@@ -244,7 +244,7 @@ Curated resources, research, and tools for securing AI systems. Managed by [AISe
 
 - **[E2B](https://github.com/e2b-dev/E2B)** [![GitHub Repo stars](https://img.shields.io/github/stars/e2b-dev/E2B?logo=github&label=&style=social)](https://github.com/e2b-dev/E2B) - SDK + self-hostable infra to run untrusted, LLM-generated code in isolated cloud sandboxes (Firecracker microVMs).
 
-- **[microsandbox](https://github.com/microsandbox/microsandbox)** [![GitHub Repo stars](https://img.shields.io/github/stars/microsandbox/microsandbox?logo=github&label=&style=social)](https://github.com/e2b-dev/E2B) - self-hosted microVM (libkrun) sandbox for untrusted AI/user code.
+- **[microsandbox](https://github.com/superradcompany/microsandbox)** [![GitHub Repo stars](https://img.shields.io/github/stars/superradcompany/microsandbox?logo=github&label=&style=social)](https://github.com/superradcompany/microsandbox) - self-hosted microVM (libkrun) sandbox for untrusted AI/user code.
 
 ### Confidential & Verifiable Inference (PCC/TEEs)
 *Run AI models inside attested TEEs with end-to-end encryption, auditability, and unlinkable requests so prompts and outputs never leave the secure boundary.*
@@ -286,7 +286,7 @@ Curated resources, research, and tools for securing AI systems. Managed by [AISe
 - **[Foolbox](https://github.com/bethgelab/foolbox)** [![GitHub Repo stars](https://img.shields.io/github/stars/bethgelab/foolbox?logo=github&label=&style=social)](https://github.com/bethgelab/foolbox)
 
 #### Goal-directed agent attack tasks
-- **[PyRIT](https://github.com/Azure/PyRIT)** [![GitHub Repo stars](https://img.shields.io/github/stars/Azure/PyRIT?logo=github&label=&style=social)](https://github.com/Azure/PyRIT)
+- **[PyRIT](https://github.com/microsoft/PyRIT)** [![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/PyRIT?logo=github&label=&style=social)](https://github.com/microsoft/PyRIT)
 - **[AgentDojo](https://github.com/ethz-spylab/agentdojo)** [![GitHub Repo stars](https://img.shields.io/github/stars/ethz-spylab/agentdojo?logo=github&label=&style=social)](https://github.com/ethz-spylab/agentdojo)
 - **[PentestGPT](https://github.com/GreyDGL/PentestGPT)** [![GitHub Repo stars](https://img.shields.io/github/stars/GreyDGL/PentestGPT?logo=github&label=&style=social)](https://github.com/GreyDGL/PentestGPT)
 - **[CAI - Cybersecurity AI](https://github.com/aliasrobotics/cai)** [![GitHub Repo stars](https://img.shields.io/github/stars/aliasrobotics/cai?logo=github&label=&style=social)](https://github.com/aliasrobotics/cai) 
@@ -301,7 +301,6 @@ Curated resources, research, and tools for securing AI systems. Managed by [AISe
 - **[DeepTeam](https://github.com/confident-ai/deepteam)** [![GitHub Repo stars](https://img.shields.io/github/stars/confident-ai/deepteam?logo=github&label=&style=social)](https://github.com/confident-ai/deepteam)
 - **[Buttercup](https://github.com/trailofbits/buttercup)** [![GitHub Repo stars](https://img.shields.io/github/stars/trailofbits/buttercup?logo=github&label=&style=social)](https://github.com/trailofbits/buttercup) - Trail of Bits’ AIxCC Cyber Reasoning System: runs OSS-Fuzz-style campaigns to find vulns, then uses a multi-agent LLM patcher to generate & validate fixes for C/Java repos; ships SigNoz observability; requires at least one LLM API key.
 - **[Giskard](https://github.com/Giskard-AI/giskard-oss)** [![GitHub Repo stars](https://img.shields.io/github/stars/Giskard-AI/giskard-oss?logo=github&label=&style=social)](https://github.com/Giskard-AI/giskard-oss) - Pre-deployment/CI evaluation harness for LLM/RAG: runs scan checks (prompt injection, harmful output, sensitive-information disclosure, robustness), auto-generates RAG evaluation datasets and component scores (retriever, generator, rewriter, router), exports shareable reports, and integrates with CI for regression gates.
-- **[ultraprobe](https://github.com/ppcvote/ultralab/tree/master/ultraprobe)** [![GitHub Repo stars](https://img.shields.io/github/stars/ppcvote/ultralab?logo=github&label=&style=social)](https://github.com/ppcvote/ultralab) - Lighthouse-style CLI for AI agents: bundles prompt defense audit (17 vectors), PII detection, and SEO/AEO/AAO scanners into a single AVS Score. Pure deterministic, zero-config, MIT-licensed. Designed for CI gates and pre-deployment scoring.
 
 #### Scoring/leaderboards & evidence reports
 - *(none from your current list yet)*
@@ -481,7 +480,7 @@ Adversarial prompt datasets-both text-only and multimodal-designed to bypass saf
 **Used to** test how effectively a model resists jailbreaks and enforces policy-based refusal.
 
 - **[CySecBench](https://github.com/cysecbench/dataset)** [![GitHub Repo stars](https://img.shields.io/github/stars/cysecbench/dataset?logo=github&label=&style=social)](https://github.com/cysecbench/dataset)  cybersecurity-domain jailbreak dataset with 12,662 close-ended prompts across multiple attack categories; paper introduces an obfuscation-based jailbreaking method and LLM evals.
-- **[JailBreakV-28K](https://github.com/SaFoLab-WISC/JailBreakV_28K)** [![GitHub Repo stars](https://img.shields.io/github/stars/SaFoLab-WISC/JailBreakV_28K?logo=github&label=&style=social)](https://github.com/SaFoLab-WISC/JailBreakV_28K)  multimodal jailbreak benchmark with ~28k test cases (20k text-based transfer attacks + 8k image-based) to assess MLLM robustness; HF page includes a mini-leaderboard and image types. 
+- **[JailBreakV-28K](https://github.com/SaFo-Lab/JailBreakV_28K)** [![GitHub Repo stars](https://img.shields.io/github/stars/SaFo-Lab/JailBreakV_28K?logo=github&label=&style=social)](https://github.com/SaFo-Lab/JailBreakV_28K)  multimodal jailbreak benchmark with ~28k test cases (20k text-based transfer attacks + 8k image-based) to assess MLLM robustness; HF page includes a mini-leaderboard and image types. 
 - **[Do-Not-Answer](https://github.com/Libr-AI/do-not-answer)** [![GitHub Repo stars](https://img.shields.io/github/stars/Libr-AI/do-not-answer?logo=github&label=&style=social)](https://github.com/Libr-AI/do-not-answer)  refusal-evaluation set of 939 “should-refuse” prompts plus an automatic evaluator; answering instead of refusing can be used as a jailbreak-success signal. 
 
 
@@ -873,9 +872,9 @@ Backdoors, implants, or malicious programs used to execute or support attacks.
 - [MLSecOps References - disesdi](https://github.com/disesdi/mlsecops_references) [![GitHub Repo stars](https://img.shields.io/github/stars/disesdi/mlsecops_references?logo=github&label=&style=social)](https://github.com/disesdi/mlsecops_references)
 - [Awesome ML Privacy Attacks - StratosphereIPS](https://github.com/stratosphereips/awesome-ml-privacy-attacks) [![GitHub Repo stars](https://img.shields.io/github/stars/stratosphereips/awesome-ml-privacy-attacks?logo=github&label=&style=social)](https://github.com/stratosphereips/awesome-ml-privacy-attacks)
 - [Awesome LLM Supply Chain Security - ShenaoW](https://github.com/ShenaoW/awesome-llm-supply-chain-security) [![GitHub Repo stars](https://img.shields.io/github/stars/ShenaoW/awesome-llm-supply-chain-security?logo=github&label=&style=social)](https://github.com/ShenaoW/awesome-llm-supply-chain-security)
-- [Awesome Prompt Injection - FonduAI](https://github.com/FonduAI/awesome-prompt-injection) [![GitHub Repo stars](https://img.shields.io/github/stars/FonduAI/awesome-prompt-injection?logo=github&label=&style=social)](https://github.com/FonduAI/awesome-prompt-injection)
+- [Awesome Prompt Injection - Joe-B-Security](https://github.com/Joe-B-Security/awesome-prompt-injection) [![GitHub Repo stars](https://img.shields.io/github/stars/Joe-B-Security/awesome-prompt-injection?logo=github&label=&style=social)](https://github.com/Joe-B-Security/awesome-prompt-injection)
 - [Awesome Jailbreak on LLMs - yueliu1999](https://github.com/yueliu1999/Awesome-Jailbreak-on-LLMs) [![GitHub Repo stars](https://img.shields.io/github/stars/yueliu1999/Awesome-Jailbreak-on-LLMs?logo=github&label=&style=social)](https://github.com/yueliu1999/Awesome-Jailbreak-on-LLMs)
-- [Awesome LM-SSP (Large Model Security, Safety & Privacy) - ThuCCSLab](https://github.com/ThuCCSLab/Awesome-LM-SSP) [![GitHub Repo stars](https://img.shields.io/github/stars/ThuCCSLab/Awesome-LM-SSP?logo=github&label=&style=social)](https://github.com/ThuCCSLab/Awesome-LM-SSP)
+- [Awesome LM-SSP (Large Model Security, Safety & Privacy) - CryptoAILab](https://github.com/CryptoAILab/Awesome-LM-SSP) [![GitHub Repo stars](https://img.shields.io/github/stars/CryptoAILab/Awesome-LM-SSP?logo=github&label=&style=social)](https://github.com/CryptoAILab/Awesome-LM-SSP)
 - [Security & Privacy for LLMs (llm-sp) - chawins](https://github.com/chawins/llm-sp) [![GitHub Repo stars](https://img.shields.io/github/stars/chawins/llm-sp?logo=github&label=&style=social)](https://github.com/chawins/llm-sp)
 - [Awesome LVLM Attack - liudaizong](https://github.com/liudaizong/Awesome-LVLM-Attack) [![GitHub Repo stars](https://img.shields.io/github/stars/liudaizong/Awesome-LVLM-Attack?logo=github&label=&style=social)](https://github.com/liudaizong/Awesome-LVLM-Attack)
 - [Awesome ML/SP Papers - gnipping](https://github.com/gnipping/Awesome-ML-SP-Papers) [![GitHub Repo stars](https://img.shields.io/github/stars/gnipping/Awesome-ML-SP-Papers?logo=github&label=&style=social)](https://github.com/gnipping/Awesome-ML-SP-Papers)

@@ -11,7 +11,7 @@ A curated list of recent research relevant to AI security.
 
 ## March 2026
 
-- 📖 **[Internal Safety Collapse in Frontier Large Language Models](https://arxiv.org/abs/2603.23509)** — Reveals a novel safety failure mode where LLMs produce harmful content as a side effect of completing normal professional tasks — no adversarial prompting needed. Jailbreaks any frontier LLM in pass@3 (Claude Opus 4.6, GPT-5.4, Gemini 3.1 Pro). Black-box, cross-domain (8+ disciplines), with single-turn, ICL, and agentic attack modes. [[Code](https://github.com/wuyoscar/ISC-Bench)]
+- 📖 **[Internal Safety Collapse in Frontier Large Language Models](https://arxiv.org/abs/2603.23509)** — Reveals a novel safety failure mode where LLMs produce harmful content as a side effect of completing normal professional tasks — no adversarial prompting needed. Jailbreaks any frontier LLM in pass@3 (Claude Opus 4.6, GPT-5.4, Gemini 3.1 Pro). Black-box, cross-domain (8+ disciplines), with single-turn, ICL, and agentic attack modes. [[Code](https://github.com/wuyoscar/Internal-Safety-Collapse)]
 
 ---
 
